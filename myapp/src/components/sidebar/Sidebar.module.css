@@ -1,0 +1,23 @@
+.friendsListImage{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  object-fit: cover;
+ 
+}
+
+.name{
+  font-size: 0.7rem;
+  font-weight: normal;
+}
+.friendsListBox{
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  margin:0.2rem;
+  
+  width: 2.4rem;
+  height: 2.4rem;
+  border: 1px solid rgb(220, 115, 241);
+  border-radius: 50%;
+}

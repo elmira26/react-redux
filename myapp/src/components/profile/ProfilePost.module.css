@@ -1,0 +1,31 @@
+.postWrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.post_1 {
+  height: 4rem;
+}
+
+.postImage {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.postName{
+ 
+  display: inline-block;
+  font-family: "Helvetica Neue",Helvetica,Arial
+}
+.span{
+  width: 15%;
+}
+.spanLike{
+  width: 1.8rem;
+  height: 1.8rem;
+  align-self: baseline;
+}

@@ -1,0 +1,11 @@
+.App-header {
+  grid-area: h;
+  background-color: #3150e8;
+  max-height: 110vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}

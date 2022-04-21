@@ -1,0 +1,18 @@
+.dialogImage{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  text-align: left;
+  object-fit: cover;
+  transform: scale(1.1);
+  border: 1px solid rgba(128, 128, 128, 0.438); 
+}
+.dialogLink{
+  color: rgba(0, 0, 0, 0.637);
+  flex-basis: 50%;
+  align-self: start;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  text-align: left;
+  text-decoration: none;
+}

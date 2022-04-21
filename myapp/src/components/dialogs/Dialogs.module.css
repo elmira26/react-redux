@@ -1,0 +1,92 @@
+.dialogs {
+  display: grid;
+  padding: 10px;
+  grid-template-columns: 4fr 10fr;
+
+}
+
+.dialogsItems {
+
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.dialog {
+  color: black;
+  height: 3rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 0.5rem auto;
+}
+
+.dialog.active {
+  color: red;
+}
+
+.dialogBtnBox {
+  flex-basis: 15%;
+}
+
+.dialogBtn {
+  background-color: #3150e8;
+  height: 1.35rem;
+  width: 100%;
+  border: none;
+  border-radius: 25px;
+  color: white;
+}
+
+.formDialog {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  max-width: 75%;
+  height: 2rem;
+  margin: 1rem auto;
+  border-radius: 30px;
+  box-shadow: rgba(85, 83, 83, 0.24) 0px 3px 8px;
+  border: none;
+}
+
+.textareaDialog {
+  flex-basis: 70%;
+  height: 90%;
+  border: none;
+  border-radius: 15px;
+}
+.textareaDialog:focus,::after{
+  border: none;
+}
+
+.messages {
+  padding: 0 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100%;
+}
+
+.messagesNav {
+  background-color: #ebdbdb;
+  flex: 1 0 10%;
+
+}
+
+.messagesContent {
+  background-color: #f0f0f0;
+  flex: 1 0 70%;
+
+}
+
+.messagesSendbox {
+  background-color: #ebdbdb;
+  flex: 1 0 20%;
+}
+
+.message {
+  color: rgb(189, 43, 128);
+}

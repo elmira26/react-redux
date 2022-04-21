@@ -1,0 +1,28 @@
+.menu {
+  grid-area: nav-menu;
+  background-color: #f8fbfc;
+  text-decoration: none;
+}
+
+.sidebar {
+  padding: 1rem;
+}
+
+.item {
+  width: 80%;
+  height: 1rem;
+  padding: 1rem;
+  margin-top: 0.7rem;
+  border-radius: 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  color: inherit;
+}
+
+.item:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
+
+.links {
+  text-decoration: none;
+}
